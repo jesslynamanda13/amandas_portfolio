@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+#navbar a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:#e63946;
+    
+}
+#navbar a:hover{
+    color:#457b9d;
+    transition: color 1s;
+}
+.bodyy{
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-bottom: 70 px;
+    padding-right: 130px ;
+    text-align: center;
+}
+.podcast{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.podcast p a{
+    font-family: 'Quicksand', sans-serif;
+    font-size:15px;
+    color: #1d3557;
+}
+.osis p{
+    font-family: 'Quicksand', sans-serif;
+    color: #1d3557;
+}
+
+img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    transition: 1s;
+
+}
+
+.per{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.per img{
+    width: 300px;
+}
+.personal p{
+    font-family: 'Quicksand', sans-serif;
+    font-size:15px;
+    color: #1d3557;
+}
+.personal p a{
+    color: rgb(56, 33, 33);
+    opacity: 50%;
+}
+
